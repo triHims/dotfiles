@@ -43,3 +43,8 @@ source_if_directory_exists() {
 source_if_directory_exists ~/.local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 source_if_directory_exists ~/.local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+
+export GOPATH=$HOME/.local/go
+
+export GOMODCACHE=$HOME/go/pkg/mod

@@ -1,1 +1,2 @@
 alias ls="ls --color=auto"
+alias nvme-temp="sudo nvme smart-log /dev/nvme0"
